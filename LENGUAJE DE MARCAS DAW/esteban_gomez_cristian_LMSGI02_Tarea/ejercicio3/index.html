@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>hotel</title>
+</head>
+
+<body>
+<form action="mailto:reservas@mihotel.com">
+	<table>
+		<tr>
+		<td>
+			<p>
+				Nombre
+			</p>
+		</td>
+		<td>
+			<input type="text" name="nombre" required>
+		</td>
+		</tr>
+		<tr>
+		<td>
+			<p>
+				Apellidos
+			</p>
+		</td>
+		<td>
+			<input type="text" name="apellidos" required>
+		</td>
+		</tr>
+		<tr>
+		<td>
+			<p>
+				Telefono
+			</p>
+		</td>
+		<td>
+			<input type="tel" name="telefono" required>
+		</td>
+		</tr>
+		<tr>
+		<td>
+			<p>
+				Email
+			</p>
+		</td>
+		<td>
+			<input type="email" name="email" required>
+		</td>
+		</tr>
+		<tr>
+		<td>
+			<p>
+				Numero de Noches 
+			</p>
+		</td>
+		<td>
+			<input type="number" name="numero" required>
+		</td>
+		</tr>
+		<tr>
+		<td>
+			<label for="start">Fecha de entrada:</label>
+
+<input type="date" id="start" name="trip-start"
+       value="2018-07-22"
+       min="2021-01-01" max="2024-12-31">
+		</td>
+		
+		</tr>
+		<tr>
+		<td>
+		<p>
+			tipo de habitacion
+		</p>
+			<input type="radio" name="tipo_hab" value="simple"/> Habitacion simple<br/>
+			<input type="radio" name="tipo_hab" value="doble"/> Habitacion doble<br/>
+			<input type="radio" name="tipo_hab" value="matrimonio"/> Habitacion matrimonio<br/>
+		</td>
+		<td>
+		<p>
+			Complementos
+		</p>
+			<input type="checkbox" name="comp[]" /> Desayuno<br/>
+			<input type="checkbox" name="comp[]" /> Comida<br/>
+			<input type="checkbox" name="comp[]" /> Cena<br/>
+			<input type="checkbox" name="comp[]" /> Cama supletoria<br/>
+		</td>
+		</tr>
+		<tr>
+			<td cosplan="2">
+				<textarea name="comenatarios"></textarea>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<input type="submit" value="enviar">
+			</td>
+			<td>
+				<input type="reset" value="reset">
+			</td>
+		</tr>
+	</table>
+</form>
+</body>
+</html>

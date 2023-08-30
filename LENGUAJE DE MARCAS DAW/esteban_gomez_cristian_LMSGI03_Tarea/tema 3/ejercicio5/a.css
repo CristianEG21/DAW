@@ -1,0 +1,10 @@
+/* CSS Document */
+@charset "utf-8";
+body { background-color: #FAB8AA; }
+ul{
+	list-style-type: square;
+}
+
+.center{
+	text-align: center;
+}

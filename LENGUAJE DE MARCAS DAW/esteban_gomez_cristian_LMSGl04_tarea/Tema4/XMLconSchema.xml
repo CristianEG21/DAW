@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmpresaDistanza xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceShemaLocation="Pedido.xsd">
+<Pedidos>
+<Sucursales CodigoPedido="A234567">
+	<DireccionEntrega>C/ San Anton, nº 5,  28200, San Lorenzo de El Escorial, Madrid.</DireccionEntrega>
+	<NombreTrabajador>Pablo Bernaez Sanz.</NombreTrabajador>
+	<FechaPedido>2022/02/11</FechaPedido>
+	<ObservacionesPedido>Urgente</ObservacionesPedido>
+	<PlazoRevision>8 días</PlazoRevision>
+	<Articulos CodigoArt="ABC-123">
+		<UnidadesPedidas>5</UnidadesPedidas>
+		<PrecioUnidad>250 €/Unidad</PrecioUnidad>
+		<ObservacionesArt>Entrega 3 dias</ObservacionesArt>
+	</Articulos>
+	<Articulos CodigoArt="BCD-234">
+		<UnidadesPedidas>50</UnidadesPedidas>
+		<PrecioUnidad>100 €/Unidad</PrecioUnidad>
+		<ObservacionesArt></ObservacionesArt>
+	</Articulos>
+</Sucursales>
+<Sucursales CodigoPedido="B7654321">
+	<DireccionEntrega>Calle Mayor, 2, 28001 Madrid, Madrid.</DireccionEntrega>
+	<NombreTrabajador>Geovanni Luka Vicenzo.z</NombreTrabajador>
+	<FechaPedido>2022/02/11</FechaPedido>
+	<ObservacionesPedido></ObservacionesPedido>
+	<PlazoRevision>15 días</PlazoRevision>
+	<Articulos CodigoArt="BCS-231">
+		<UnidadesPedidas>50</UnidadesPedidas>
+		<PrecioUnidad>2€/Unidad</PrecioUnidad>
+		<ObservacionesArt></ObservacionesArt>
+	</Articulos>
+</Sucursales>
+</Pedidos>
+</EmpresaDistanza>
+

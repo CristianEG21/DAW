@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<!DOCTYPE agenda>
+
+<agenda> 
+
+<persona>
+
+<identificacion>
+<nombre>Manuel</nombre>
+<apellido1>Alonso</apellido1>
+<apellido2>Prieto</apellido2>
+</identificacion>
+
+<direccion>
+<calle>Princesa</calle>
+<numero>82</numero>
+<planta>Bajo</planta>
+<letra>B</letra>
+<localidad>Avila</localidad>
+<cp>28350</cp>
+</direccion>
+
+<telefonos>
+<movil>987654321</movil>
+<casa>126345634</casa>
+<trabajo>836758372</trabajo>
+</telefonos>
+
+</persona>
+
+</agenda>

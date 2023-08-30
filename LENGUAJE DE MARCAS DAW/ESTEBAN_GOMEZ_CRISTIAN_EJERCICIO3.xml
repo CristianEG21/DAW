@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<!DOCTYPE modulo>
+
+
+<modulo nombre="Lenguaje de Marcas y sistemas de gestion de informacion" horas_semanales="4" caracter="obligatorio">
+<fecha_inicio dia="15" mes="septiembre" ano="2010"/>
+<fecha_fin dia="30" mes="junio" ano="2011"/>
+
+<alumno1>
+
+<identificacion nombre="Ana" apellidos="Fernández Gutiérrez" nif="16965696L"/>
+<datos_personales telefono="789654321" email="ana.fdezgtrrez@hotmail.com">
+<direccion calle="El Percebe" numero="13" localidad="Santander" cp="39302"/>
+</datos_personales>
+<calificacion nota="" faltas=""/>
+
+</alumno1>
+
+<alumno2>
+
+<identificacion nombre="Pepito" apellidos="Grillo" nif="98765432H"/>
+<datos_personales telefono="656566555" email="yhyh@yahoo.com">
+<direccion calle="Avd. El Pez" numero="5" localidad="Suances" cp="39401"/>
+</datos_personales>
+<calificacion nota="apto" faltas="0"/>
+
+</alumno2>
+
+</modulo>

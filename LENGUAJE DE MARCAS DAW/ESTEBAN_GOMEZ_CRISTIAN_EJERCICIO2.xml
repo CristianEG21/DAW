@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<!DOCTYPE receta>
+
+<receta>
+
+<plato>Sopa de Cebolla</plato>
+
+<comensales>4</comensales>
+
+<ingrediente cantidad="1" unidad="kg" nombre="cebollas"/>
+<ingrediente cantidad="2" unidad="l" nombre="caldo de carne"/>
+<ingrediente cantidad="100" unidad="gramos" nombre="mantequilla"/>
+<ingrediente cantidad="1" unidad="cucharada" nombre="harina"/>
+<ingrediente cantidad="100" unidad="gr" nombre="queso emmental suizo o gruyere rallado"/>
+<ingrediente cantidad="" unidad="" nombre="Pan tostado en rebanadas"/>
+<ingrediente cantidad="" unidad="" nombre="tomillo"/>
+<ingrediente cantidad="1" unidad="hoja" nombre="laurel"/>
+<ingrediente cantidad="" unidad="" nombre="pimienta"/>
+
+<proceso>
+<paso1>Pelar y partir las cebollas en rodajas finas.</paso1>
+<paso2>Rehogarlas con la mantequilla, sal y pimienta a fuego lento hasta que esten transparentes sin dorarse.</paso2>
+<paso3>Anadir la harina sin dejar de remover</paso3>
+<paso4>Ponerlo en una cazuela con el caldo, el tomillo y el laurel.</paso4>
+<paso5>Dejar cocer a fuego lento durante unos 15 minutos.</paso5>
+<paso6>Poner las rebanadas de pan encima, espolvorear el queso y gratinar al horno.</paso6>
+</proceso>
+
+</receta>

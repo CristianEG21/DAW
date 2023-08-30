@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+
+ <!-- Se define el canal -->
+
+<channel>
+
+<title>Ejercicio1</title>
+
+<link rel="alternate" type="application/rss+xml" title="tiempoSanlorenzo" href="http://www.misitio.com/ejercicio1.rss" />
+
+<description>
+
+ejercicio 1 de rss
+
+</description>
+
+<language>es</language>
+
+ <!-- Se definen los distintos items del canal -->
+
+<item>
+
+<title>tiempo</title>
+
+<link>https://www.tiempo.es/madrid-san_lorenzo_de_el_escorial-es0ma0128.html</link>
+
+<description>
+
+Tiempo meterorologico de San lorenzo de El Escorial
+
+</description>
+
+</item>
+
+</channel>
+
+</rss>

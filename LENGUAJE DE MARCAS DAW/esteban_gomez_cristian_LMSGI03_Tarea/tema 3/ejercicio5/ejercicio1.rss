@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+
+<channel>
+
+<title>Ejercicio1</title>
+<link>https://www.tiempo.es/</link>
+<description>Aqui podras ver las noticias acerca del tiempo de tu localidad</description>
+
+<item>
+
+<title>San Lorenzo de el Escorial</title>
+<link>https://www.tiempo.es/madrid-san_lorenzo_de_el_escorial-es0ma0128.html</link>
+<description>Tiempo en San Lorenzo de El escorial</description>
+<author>CristianEsteban@gmail.com</author>
+<pubDate>Wed, 05 Jan 2022 13:00:00 GMT</pubDate>
+
+
+</item>
+
+</channel>
+
+</rss>

@@ -1,0 +1,86 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<!-- SE AÑADE LAS DIRECCIONES DE ENTREGA DE LA SUCURSAL  DE ENTREGA. --> 
+	
+	
+		<xs:documentation xml:lang="ES-es">
+			PEDIDO DE LA EMPRESA DISTANZA.
+				<fecha>2022/02/11</fecha>
+				<autor>Cristian Esteban Gomez</autor>
+		</xs:documentation> 
+	
+
+	
+
+	<xs:element name="Pedidos" type="DatosPedido"/>
+	<xs:complexType name="DatosPedido" >
+		
+		<xs:sequence> 
+				
+				<xs:element name ="Sucursales" type="DatosSucursales" minOccurs="0" maxOccurs="unbounded" /> 
+		</xs:sequence>
+	</xs:complexType>
+	
+
+	
+	
+	<xs:complexType name = "DatosSucursales">
+	<xs:sequence> 
+			<xs:element name="DirEntrega" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="NombreTrabajador" type="xs:string" />
+			<xs:element name="FechaPedido" type="xs:date"/>
+			
+			<xs:element name ="ObservacionesPedido">
+
+			<xs:element>	
+			<xs:element name = "PlazoRevision">
+			
+				<xs:simpleType>
+					
+					<xs:restriction base="xs:positiveInteger">
+						<xs:minInclusive values ="1"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+	
+	
+		<xs:element name ="Articulos" type="DatosArt" minOccurs="1" maxOccurs="unbounded"/>
+			<xs:sequence>
+				
+				<xs:attribute name="CodigoPedido" type="TipoCodigo" use="required"/>
+	
+		<xs:simpleType name ="TipoCodigo">
+			<xs:restriction base ="xs:string">
+				<xs:pattern value="[A-Za-z]([A-Za-z0-9]{7})"/>
+			</xs:restriction>
+		</xs:simpleType>
+	<xs:complexType name ="DatosArt">
+			<xs:sequence>
+				<xs:element name ="UnidadesPedidas">
+					<xs:simpleType>
+						<xs:restriction base= "xsd:positiveInteger">
+							<xs:minInclusive value="1"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="PrecioUnidad">
+					<xs:simpleType>
+						<xs:restriction base="xsd:decimal">
+							<xs:minInclusive value="1"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="ObservacionesArt" type="xsd:string"/>
+			</xs:sequence>
+
+		<xs:attribute name="ObservacionesArt" type="xsd:string"/>
+	</xs:complexType>
+		<xs:simpletype name="CodigoArt">
+			<xs:restriction base="xsd:string">
+				<xs:pattern value="[A-Z]{3}-[0-9]{3}"/>
+			</xs:restriction>
+				</xs:simpletype>
+		</xs:sequence>
+</xs:element>
+</xs:schema>
