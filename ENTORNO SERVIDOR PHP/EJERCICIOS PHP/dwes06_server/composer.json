@@ -1,0 +1,14 @@
+{
+    "name": "cristian/test",
+    "description": "prueba",
+    "type": "pro",
+    "require": {
+        "doctrine/orm": "^2.15"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cristian\\Test\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}

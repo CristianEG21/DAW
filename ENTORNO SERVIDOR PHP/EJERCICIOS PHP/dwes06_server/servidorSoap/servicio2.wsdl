@@ -1,0 +1,92 @@
+<definitions
+    name="Operaciones" 
+    targetNamespace="http://localhost/dwes06_server/servidorSoap/servidor.php"  
+    xmlns:tns="http://localhost/dwes06_server/servidorSoap/servidor.php" 
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+    xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" 
+    xmlns:soap-enc="http://schemas.xmlsoap.org/soap/encoding/" 
+    xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" 
+    xmlns="http://schemas.xmlsoap.org/wsdl/">
+    <message name="restaIn">
+        <part name="a" type="xsd:float"/>
+        <part name="b" type="xsd:float"/>
+    </message>
+    <message name="restaOut">
+        <part name="return" type="xsd:float"/>
+    </message>
+    <message name="sumaIn">
+        <part name="a" type="xsd:float"/>
+        <part name="b" type="xsd:float"/>
+    </message>
+    <message name="sumaOut">
+        <part name="return" type="xsd:float"/>
+    </message>
+    <message name="saludoIn">
+        <part name="texto" type="xsd:string"/>
+    </message>
+    <message name="saludoOut">
+        <part name="return" type="xsd:string"/>
+    </message>
+    <portType name="OperacionesPort">
+        <operation name="resta">
+            <input message="tns:restaIn"/>
+            <output message="tns:restaOut"/>
+        </operation>
+        <operation name="suma">
+            <input message="tns:sumaIn"/>
+            <output message="tns:sumaOut"/>
+        </operation>
+        <operation name="saludo">
+            <input message="tns:saludoIn"/>
+            <output message="tns:saludoOut"/>
+        </operation>
+    </portType>
+    <binding name="OperacionesBinding" type="tns:OperacionesPort">
+        <soap:binding style="rpc" transport="http://schemas.xmlsoap.org/soap/http" />
+        <operation name="resta">
+            <soap:operation soapAction="http://localhost/dwes06_server/servidorSoap/servidor.php#resta" />
+            <input>
+                <soap:body 
+                    use="encoded" 
+                    encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" 
+                    namespace="http://localhost/dwes06_server/ServidorSoap/servidor.php" />
+            </input>
+            <output>
+                <soap:body use="encoded" 
+                           encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" 
+                           namespace="http://localhost/dwes06_server/ServidorSoap/servidor.php" />
+            </output>
+        </operation>
+        <operation name="suma">
+            <soap:operation soapAction="http://localhost/dwes06_server/servidorSoap/servidor.php#suma" />
+            <input>
+                <soap:body 
+                    use="encoded" 
+                    encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" 
+                    namespace="http://localhost/dwes06_server/servidorSoap/servidor.php" />
+            </input>
+            <output>
+                <soap:body 
+                    use="encoded" 
+                    encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" 
+                    namespace="http://localhost/dwes06_server/servidorSoap/servidor.php" />
+            </output>
+        </operation>
+        <operation name="saludo">
+            <soap:operation soapAction="http://localhost/dwes06_server/servidorSoap/servidor.php#saludo" />
+            <input>
+                <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" 
+                           namespace="http://localhost/dwes06_server/servidorSoap/servidor.php" />
+            </input>
+            <output>
+                <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" 
+                           namespace="http://localhost/dwes06_server/servidorSoap/servidor.php" />
+            </output>
+        </operation>
+    </binding>
+    <service name="OperacionesService">
+        <port name="OperacionesPort" binding="tns:OperacionesBinding">
+            <soap:address location="http://localhost/dwes06_server/servidorSoap/servidor.php"/>
+        </port>
+    </service>
+</definitions>
