@@ -1,0 +1,25 @@
+{
+    "name": "usuario/practica",
+    "description": "Practica Unidad 5",
+    "type": "project",
+    "config": {
+        "optimize-autoloader": true
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": ["src/"]
+        }
+    },
+    "license": "GNU/GPL",
+    "authors": [
+        {
+            "name": "usuario",
+            "email": "usuario@correo.es"
+        }
+    ],
+    "require": {
+        "eftec/bladeone": "^4.8",
+        "fakerphp/faker": "^1.17",
+        "milon/barcode": "^10.0"
+    }
+}

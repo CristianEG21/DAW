@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="1">
+        <file>
+            <url>public/index.php</url>
+            <bookmark id="1">
+                <name/>
+                <line>10</line>
+                <key/>
+            </bookmark>
+        </file>
+    </editor-bookmarks>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/profesor/distancia/dwes/dwes_fuentes/DAW_DWES05/codigo/dwes05_proyecto_oo/BD/BD.php</file>
+            <file>file:/C:/Users/profesor/distancia/dwes/dwes_fuentes/DAW_DWES05/codigo/dwes05_proyecto_oo/public/index.php</file>
+            <file>file:/C:/Users/profesor/distancia/dwes/dwes_fuentes/DAW_DWES05/codigo/dwes05_proyecto_oo/public/error_handler.php</file>
+            <file>file:/C:/Users/profesor/distancia/dwes/dwes_fuentes/DAW_DWES05/codigo/dwes05_proyecto_oo/public/modificar.php</file>
+            <file>file:/C:/Users/profesor/distancia/dwes/dwes_fuentes/DAW_DWES05/codigo/dwes05_proyecto_oo/public/crear.php</file>
+            <file>file:/C:/Users/profesor/distancia/dwes/dwes_fuentes/DAW_DWES05/codigo/dwes05_proyecto_oo/public/listado.php</file>
+            <file>file:/C:/Users/profesor/distancia/dwes/dwes_fuentes/DAW_DWES05/codigo/dwes05_proyecto_oo/DAO/FamiliaDao.php</file>
+            <file>file:/C:/Users/profesor/distancia/dwes/dwes_fuentes/DAW_DWES05/codigo/dwes05_proyecto_oo/modelo/Familia.php</file>
+            <file>file:/C:/Users/profesor/distancia/dwes/dwes_fuentes/DAW_DWES05/codigo/dwes05_proyecto_oo/public/detalle.php</file>
+            <file>file:/C:/Users/profesor/distancia/dwes/dwes_fuentes/DAW_DWES05/codigo/dwes05_proyecto_oo/DAO/UsuarioDao.php</file>
+        </group>
+    </open-files>
+</project-private>
