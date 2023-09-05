@@ -1,0 +1,19 @@
+{
+    "name": "ivan/dwes05_proyecto",
+    "description": "Gestión de Proyectos",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ivan Rodriguez",
+            "email": "jorge.rodriguez@educa.madrid.org"
+        }
+    ],
+    "require": {
+        "eftec/bladeone": "^4.5"
+    }
+}
